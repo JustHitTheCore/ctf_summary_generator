@@ -34,7 +34,7 @@ After having the .json service key file, just put it in `./ccredentials/googlesh
 The last thing you have to do is to make the google spreadsheet service account be able to read particular spreadsheets. In the json key file, there is a `client_email`. Just share your spreadsheets to this address and job's done.
 
 The requirements for spreadsheets are:
-* the header row must be a second row ((summary_generator.py#L42 - head=2)[https://github.com/JustHitTheCore/ctf_summary_generator/blob/master/summary_generator.py#L42])
+* the header row must be a second row ([summary_generator.py#L42 - `head=2` argument](https://github.com/JustHitTheCore/ctf_summary_generator/blob/master/summary_generator.py#L42))
 * it knows the data based on header names, which can be changed in [summary_generator.py#L27-L31](https://github.com/JustHitTheCore/ctf_summary_generator/blob/master/summary_generator.py#L27-L31)
 
 ## Requirements
