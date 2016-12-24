@@ -42,7 +42,7 @@ The last thing you have to do is to make the google spreadsheet service account 
 
 ## Requirements
 
-The only requirements are `gspread` and `pandas` modules. In order to install them, you can use pip Python packages manager and our `requirements.txt` file:
+The requirements/dependencies can be found in `requirements.txt`. In order to install them, you can use pip Python packages manager:
 
 ```
 pip install -r requirements.txt
