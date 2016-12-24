@@ -12,7 +12,7 @@ import gspread
 import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
 
-key_path = './ctf-summary-credentials/ctf-summary-da1126a2842b.json'
+key_path = './credentials/googlesheet_key.json'
 scope = ['https://spreadsheets.google.com/feeds']
 
 # We assume that the spreadsheet looks like this:
