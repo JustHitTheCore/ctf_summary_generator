@@ -1,6 +1,8 @@
 # CTF summary generator
 
-The `generate_summary` script generates CTF summary based on google spreadsheet containing information about who solved which CTF tasks. It is used by JHTC in order to send emails with CTF results/summary along with some "What we have learned" info.
+The `generate_summary` script generates CTF summary based on google spreadsheet that contains information about who solved which CTF tasks. 
+
+We use it in JHTC in order to send emails with CTF results/summary along with some "What we learned" info.
 
 It has been written for Python 3. However it might work with Python 2.
 
@@ -8,9 +10,9 @@ It has been written for Python 3. However it might work with Python 2.
 
 Pure words won't describe everything as fast as a screenshot can, so here is an example spreadsheet:
 
-[!docs/spreadsheet.png](google spreadsheet screenshot)
+![google spreadsheet screenshot](docs/spreadsheet.png)
 
-And here is an usage of the script:
+And here is an example of what the script does:
 
 ```bash
 $ python summary_generator.py 1aXcW2gEQIZHtjnN2EJMG73Z8Z6Do9VBqfxVKlWAnez2
@@ -41,7 +43,7 @@ pip install -r requirements.txt
 
 ## Want to help, have a problem or an idea
 
-Just create an issue or/and help us with coding and create a Pull Request!
+Just create an issue or/and help us with coding and make a Pull Request!
 
 ## Authors
 
