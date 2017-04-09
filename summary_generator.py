@@ -44,6 +44,10 @@ def make_summary(sheet_key):
     data_frame = pd.DataFrame(tasks_sheet.get_all_records(head=2))
     df = data_frame[data_frame[is_done].isin(('Y', 'y'))]
 
+    # splitting nicks with '/' and getting last name
+    for i in df.index:
+        df.loc[i, done_by] = df.loc[i, done_by].split('/')[-1]
+
     total_pts = df[points].sum()
     nick_points = df.groupby([done_by])[points].sum()
 
