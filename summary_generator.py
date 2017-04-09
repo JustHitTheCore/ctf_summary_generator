@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Downloads spreadsheet from Google Drive/Google API using gspread Python module:
 http://gspread.readthedocs.io/
